@@ -43,7 +43,7 @@ func main() {
 		var s string
 		ok := false
 
-		fmt.Scanf("%s", &s)
+		fmt.Scanln(&s)
 		res, err := strconv.ParseInt(s, 10, 64)
 		if err != nil {
 			return
